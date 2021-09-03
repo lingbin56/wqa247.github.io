@@ -1,0 +1,39 @@
+    body{
+        background-image: url("https://picsum.photos/1920/1080");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    
+    .text{
+      display: inline-block;
+      font-weight: bold;
+      color: #000;
+      font-size: 15px;
+      padding: 3px 8px;
+  }
+  text:hover{
+      color: orangered;
+  }
+
+  .color-box{
+      background-color: #fff;
+  }
+  .bt{
+      display: inline-block;
+      background-color: #fff;
+      text-decoration: none;
+      padding: 3px 8px;
+  }
+  /* 两个img放大属性 */
+  .img-rounded{  
+    cursor: pointer;
+    transition: all 0.6s;
+    background: url("img/graphds.gif");
+  }
+  .img-rounded:hover{
+    transform: scale(1.1);
+  }
+  .ov{
+      overflow: hidden;
+  }
